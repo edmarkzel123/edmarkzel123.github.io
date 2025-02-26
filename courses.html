@@ -31,13 +31,16 @@
             .then(data => {
                 let tableBody = document.getElementById("courses-table");
                 data.courses.forEach(course => {
-                    let row = <tr>
-                        <td>${course.year_level}</td>
-                        <td>${course.sem}</td>
-                        <td>${course.code}</td>
-                        <td>${course.description}</td>
-                        <td>${course.credit}</td>
-                    </tr>;
+                    let row = `
+    <tr>
+        <td>${course.year_level}</td>
+        <td>${course.sem}</td>
+        <td>${course.code}</td>
+        <td>${course.description}</td>
+        <td>${course.credit}</td>
+    </tr>
+`;
+
                     tableBody.innerHTML += row;
                 });
             })
