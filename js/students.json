@@ -1,0 +1,13 @@
+{
+    "students": [
+    {
+    "name": "Edmarkzel Pabula","age": 19,"course": "Information Technology"
+    },
+    {
+    "name": "Bob Balmond","age": 22,"course": "Computer Science"
+    },
+    {
+    "name": "Vince Isaac","age": 19,"course": "Data Science"
+    }
+    ]
+   }
